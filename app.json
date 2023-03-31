@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "goodeyes",
+    "slug": "goodeyes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+     "eas": {
+        "projectId": "abcd123-ab12-ab12-ab12-01234567890"
+      },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "green",
+          "sounds": [
+            "./assets/sound.wav"
+          ]
+        }
+      ]
+    ]
+  }
+}
